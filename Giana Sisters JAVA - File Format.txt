@@ -1,0 +1,16 @@
+DAT.BIN FILE FORMAT (Giana Sisters Java Mobile Game)
+
+[Little Eudian]
+
+HEADER (Lenght: Variable)
+
+For Numbers of Files
+	X Bytes = "/" + Name of File
+	4 Bytes = File Lenght
+	3 Bytes = File Offset
+
+====================
+
+BODY (Lenght: Variable)
+For Numbers of Files
+	X Bytes : File Data
